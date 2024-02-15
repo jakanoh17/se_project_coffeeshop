@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  max-width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+}
+
+.nav__link {
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.7s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
