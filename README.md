@@ -18,4 +18,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Project preview
 
-![alt text](<Triple Espresso Preview (1).gif>)
+![Triple Espresso Preview](Triple_Espresso_Preview.gif)
