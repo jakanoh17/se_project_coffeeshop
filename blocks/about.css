@@ -12,6 +12,7 @@
     opacity: 0;
   }
 }
+
 .about {
   background-color: #0a2850;
   width: 100%;
@@ -19,6 +20,7 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .about__title {
@@ -28,8 +30,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px;
-  margin-left: 80px;
+  margin: 100px 0 0 80px;
   max-width: 251px;
   z-index: 1;
 }

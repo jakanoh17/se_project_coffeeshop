@@ -11,6 +11,9 @@
   margin-bottom: 32px;
 }
 
+.card__list {
+  width: 540px;
+}
 .card__list-item {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;

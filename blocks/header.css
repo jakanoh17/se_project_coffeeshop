@@ -1,7 +1,6 @@
 .header {
   background-color: #fff;
-  min-height: 720px;
-  max-height: 800px;
+  height: 100vh;
   padding: 30px 80px 40px;
   width: 100%;
   box-sizing: border-box;
@@ -11,6 +10,8 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -47,22 +48,24 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
   width: 100%;
   margin-top: auto;
+  align-items: end;
   display: flex;
   justify-content: space-between;
   font-weight: 500;
   color: #838383;
 }
 
-.header__footer-span {
+.header__footer-hours {
   display: flex;
   flex-direction: column;
 }
 
-.header__paragraph_alignment_bottom {
-  align-self: flex-end;
+.header__paragraph {
+  margin: 0;
 }

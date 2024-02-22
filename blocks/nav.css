@@ -3,6 +3,7 @@
   justify-content: space-between;
 }
 
+/* logo spacing is handled by the parent margins */
 .nav__logo {
   max-width: 105px;
   height: 39px;
