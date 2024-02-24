@@ -10,13 +10,9 @@
   border: none;
 }
 
-.form__label,
-.form__checkbox-label {
-  font-family: "Inter", Arial, sans-serif;
+.form__label {
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .form__input {
@@ -26,10 +22,10 @@
   margin: 8px 0 32px;
   padding-left: 10px;
   border: 1px solid #838383;
+  box-sizing: border-box;
 }
 
 .form__input::placeholder {
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -46,11 +42,8 @@
   background-color: #2f80ed;
   color: #fff;
   border: none;
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   opacity: 100%;
   transition: opacity 1s ease-in-out;
 }
@@ -61,6 +54,7 @@
 
 .form__label_type_checkbox {
   vertical-align: middle;
+  align-self: center;
 }
 
 .form__checkbox {
@@ -69,4 +63,14 @@
   height: 20px;
   margin-right: 12px;
   vertical-align: middle;
+}
+
+.form__checkbox:checked {
+  appearance: none;
+  background-color: #2f80ed;
+  background-image: url("../images/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  border: 1px solid #838383;
 }
