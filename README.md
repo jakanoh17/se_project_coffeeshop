@@ -14,8 +14,10 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 - Customize checkbox _(suggestion can be found in stage 2 brief)_
-- Place a creamer design in some of the circles in the design to bring out more of tht "coffee" look. Also animate the design to pulsate inside the cup.
+- Place a creamer design in some of the circles in the design to bring out more of that "coffee" look. Also, animate the design to pulsate inside the cup.
 
 ## Project preview
 
 ![Triple Espresso Preview](Triple_Espresso_Preview.gif)
+
+[## URL link](https://jakanoh17.github.io/se_project_coffeeshop)
